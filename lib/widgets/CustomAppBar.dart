@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import '../assets.dart';
 
 class CustomAppBar extends StatelessWidget {
-  final double scrollOfset;
+  final double scrollOffset;
 
-  const CustomAppBar({Key key, this.scrollOfset = 0.0}) : super(key: key);
+  const CustomAppBar({Key key, this.scrollOffset = 0.0}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 10.0),
       color:
-          Colors.red.withOpacity((scrollOfset / 350).clamp(0, 1).toDouble()),
+          Colors.black.withOpacity((scrollOffset / 350).clamp(0, 1).toDouble()),
       child: SafeArea(
         child: Row(
           children: [
