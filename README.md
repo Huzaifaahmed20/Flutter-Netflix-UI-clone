@@ -3,3 +3,6 @@
 ## Screenshots
 
 <img src='screenshots/home.png' height=500 />
+<br/>
+<br/>
+<img src='screenshots/previews.png' height=500 />
