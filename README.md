@@ -6,3 +6,7 @@
 <br/>
 <br/>
 <img src='screenshots/previews.png' height=500 />
+<br/>
+<br/>
+<img src='screenshots/content.png' height=500 />
+
